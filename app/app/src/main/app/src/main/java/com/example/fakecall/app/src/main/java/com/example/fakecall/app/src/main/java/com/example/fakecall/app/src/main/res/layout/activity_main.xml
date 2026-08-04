@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fake Call Setup"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp" />
+
+    <EditText
+        android:id="@+id/callerNameInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Caller ko naam (jasto: Mummy)"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/delayInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kati second pachi call aaune (jasto: 10)"
+        android:inputType="number"
+        android:layout_marginTop="12dp" />
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fake Call Start Garnus"
+        android:layout_marginTop="24dp" />
+
+</LinearLayout>
