@@ -1,0 +1,8 @@
+<resources>
+    <style name="Theme.FakeCallApp" parent="Theme.MaterialComponents.DayNight.NoActionBar" />
+
+    <style name="Theme.FakeCallApp.Fullscreen" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+</resources>
